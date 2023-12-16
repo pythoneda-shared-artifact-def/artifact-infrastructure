@@ -85,16 +85,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1702670541,
-        "narHash": "sha256-sQVibdOTP1j2aZecQ84BA8igSApMUlnJ/3MsjjVWX2E=",
+        "lastModified": 1702718079,
+        "narHash": "sha256-ypVnJECm6rc7AFti5WsYMcyEn/Al5L/QCkymLngTZm0=",
         "owner": "pythoneda-shared-artifact-def",
         "repo": "artifact-events-infrastructure",
-        "rev": "67a590f27469dba1b3242ba9aa85ff6ee935b9c3",
+        "rev": "7ce4ba7078d86981496979952fefa497207d5e70",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-artifact-def",
-        "ref": "0.0.6",
+        "ref": "0.0.7",
         "repo": "artifact-events-infrastructure",
         "type": "github"
       }
