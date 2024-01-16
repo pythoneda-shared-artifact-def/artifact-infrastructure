@@ -28,7 +28,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-artifact-def/artifact-events/0.0.20";
+      url = "github:pythoneda-shared-artifact-def/artifact-events/0.0.21";
     };
     pythoneda-shared-artifact-artifact-events-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -42,7 +42,7 @@
       inputs.pythoneda-shared-pythoneda-infrastructure.follows =
         "pythoneda-shared-pythoneda-infrastructure";
       url =
-        "github:pythoneda-shared-artifact-def/artifact-events-infrastructure/0.0.14";
+        "github:pythoneda-shared-artifact-def/artifact-events-infrastructure/0.0.15";
     };
     pythoneda-shared-pythoneda-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -63,7 +63,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-pythoneda-def/infrastructure/0.0.17";
+      url = "github:pythoneda-shared-pythoneda-def/infrastructure/0.0.19";
     };
   };
   outputs = inputs:
@@ -72,8 +72,8 @@
       let
         org = "pythoneda-shared-artifact";
         repo = "artifact-infrastructure";
-        version = "0.0.4";
-        sha256 = "1ckgnf43jidgf1mjhi0l72w8b7dkfw9bmq751fgww6dpbmfhpwpz";
+        version = "0.0.5";
+        sha256 = "0rw3znk4c94s1yrcq7a6lb2s86r92ayx0anvh33d8yr72gy76r45";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.shared.artifact.artifact.infrastructure";
         pkgs = import nixos { inherit system; };
