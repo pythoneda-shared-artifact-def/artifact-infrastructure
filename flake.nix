@@ -28,7 +28,7 @@
         "pythoneda-shared-banner";
       inputs.pythoneda-shared-domain.follows =
         "pythoneda-shared-domain";
-      url = "github:pythoneda-shared-artifact-def/artifact-events/0.0.24";
+      url = "github:pythoneda-shared-artifact-def/artifact-events/0.0.25";
     };
     pythoneda-shared-artifact-artifact-events-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -42,19 +42,19 @@
       inputs.pythoneda-shared-infrastructure.follows =
         "pythoneda-shared-infrastructure";
       url =
-        "github:pythoneda-shared-artifact-def/artifact-events-infrastructure/0.0.18";
+        "github:pythoneda-shared-artifact-def/artifact-events-infrastructure/0.0.19";
     };
     pythoneda-shared-banner = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
-      url = "github:pythoneda-shared-def/banner/0.0.43";
+      url = "github:pythoneda-shared-def/banner/0.0.46";
     };
     pythoneda-shared-domain = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-banner.follows =
         "pythoneda-shared-banner";
-      url = "github:pythoneda-shared-def/domain/0.0.25";
+      url = "github:pythoneda-shared-def/domain/0.0.26";
     };
     pythoneda-shared-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -63,7 +63,7 @@
         "pythoneda-shared-banner";
       inputs.pythoneda-shared-domain.follows =
         "pythoneda-shared-domain";
-      url = "github:pythoneda-shared-def/infrastructure/0.0.21";
+      url = "github:pythoneda-shared-def/infrastructure/0.0.22";
     };
   };
   outputs = inputs:
@@ -72,8 +72,8 @@
       let
         org = "pythoneda-shared-artifact";
         repo = "artifact-infrastructure";
-        version = "0.0.5";
-        sha256 = "0rw3znk4c94s1yrcq7a6lb2s86r92ayx0anvh33d8yr72gy76r45";
+        version = "0.0.6";
+        sha256 = "1api4pgxpbapvq5mkqfad5sfx1w36gm7znz8y0zzw0g56y31j9dh";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.shared.artifact.artifact.infrastructure";
         pkgs = import nixos { inherit system; };
