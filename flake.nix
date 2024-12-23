@@ -28,7 +28,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-artifact-def/artifact-events/0.0.74";
+      url = "github:pythoneda-shared-artifact-def/artifact-events/0.0.75";
     };
     pythoneda-shared-artifact-artifact-events-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -42,7 +42,7 @@
       inputs.pythoneda-shared-pythonlang-infrastructure.follows =
         "pythoneda-shared-pythonlang-infrastructure";
       url =
-        "github:pythoneda-shared-artifact-def/artifact-events-infrastructure/0.0.68";
+        "github:pythoneda-shared-artifact-def/artifact-events-infrastructure/0.0.69";
     };
     pythoneda-shared-pythonlang-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -54,7 +54,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.107";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.108";
     };
     pythoneda-shared-pythonlang-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -63,7 +63,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.82";
+      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.83";
     };
   };
   outputs = inputs:
@@ -72,8 +72,8 @@
       let
         org = "pythoneda-shared-artifact";
         repo = "artifact-infrastructure";
-        version = "0.0.7";
-        sha256 = "07l4mxfbvy8sdizm91pxijd1y7zk82ih8f59xq36cbicixldivj5";
+        version = "0.0.8";
+        sha256 = "02pacjjqvffy2jngsy4v2ickdswx76mm2d6nr3m226acba38j7f7";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.shared.artifact.artifact.infrastructure";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
